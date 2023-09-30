@@ -1,0 +1,129 @@
+/* TextBox */
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #082472;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+ /* Gradient */
+
+    body {
+            background: linear-gradient(45deg,#86e5f4, #1e46b5, #03576a);
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+            height: 100vh;
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        
+}
+
+/* Bnt */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 600;
+font-size: 15px;
+color: #fff;
+background-color: #082472;
+padding: 10px 30px;
+border: 2px solid #082472;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1280ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+margin-top: 15px;
+}
+
+.btn:hover{
+
+transition : 1280ms;
+padding: 10px 100px;
+transform : translateY(-10px);
+background-color: #fff;
+color: #082472;
+border: solid 2px #082472;
+}
+
+
+/* ScrolBar */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #082472 #ffffff;
+  }
+
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #082472;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    
+  }
+
+  /* Footer */
+  .footer {
+    
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    position: absolute;
+    margin-bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #101010;
+    text-align: center;
+    border-top: 2px solid #082472;
+ }
+ 
+
+ /* NavBar */
+  .topnav {
+    position: fixed;
+    background-color: #fff;
+    padding: 14px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 2px solid #082472;
+  }
+  
+  img {
+    margin: -8px;
+    margin-left: 25px;
+  }
+  
